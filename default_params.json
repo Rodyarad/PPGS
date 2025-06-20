@@ -47,8 +47,8 @@
         "inverse_ln": true
     },
     "data_params": {
-        "train_path": "/path/to/train_dataset.npy",
-        "test_path": "/path/to/test_dataset.npy",
+        "train_path": "data/ice_slider/test/ice_slider-random-max20-1000+100x5.npy",
+        "test_path": "data/ice_slider/test/ice_slider-random-max20-1000+100x5.npy",
         "env_name": "ice_slider",
         "seq_len": 2,
         "shuffle": true,
@@ -76,5 +76,5 @@
             "snap": false
         }
     },
-    "working_dir": "results/ppgs"
+    "working_dir": "results/ice_slider"
 }
